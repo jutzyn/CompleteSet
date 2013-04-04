@@ -67,7 +67,7 @@ int main(void)
     clock_t before, after;
     loop = 0;
     before = clock();
-    CompleteSet(set,4,9);
+    CompleteSet(set,4,10);
     after = clock();
     printf(" Take %d ms \n", (int)(after - before));
     printf(" loop count is %d \n", loop);
