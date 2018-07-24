@@ -1,0 +1,12 @@
+This is a temporary mini-program to demo how to get the complete sets of given elements, and the element used in the program is the letter,
+for examples, if given three element {"a", "b", "c"}, then this program will output as following:
+ { a }
+ { b }
+ { c }
+ { a b }
+ { b c }
+ { a c }
+ { a b c}
+ 
+ Which denotes the all subsets of any combination of given elements (a, b, c),  the function is implemented as a recursive function.
+ Thanks.
